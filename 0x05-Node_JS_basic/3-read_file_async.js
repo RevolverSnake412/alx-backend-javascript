@@ -22,7 +22,7 @@ function countStudents(fileName) {
             if (Object.prototype.hasOwnProperty.call(fields, field[3])) {
               fields[field[3]] += 1;
             } else {
-              fields[field[3]] = 1;
+            fields[field[3]] = 1;
             }
           }
         }
